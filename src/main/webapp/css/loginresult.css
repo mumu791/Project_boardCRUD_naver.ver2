@@ -1,0 +1,172 @@
+@charset "utf-8";
+body{
+  background-color: rgba(221, 225, 240,0.5);
+}
+#wrap{
+  width: 450px;
+  margin: 5% auto;
+  font-family: 'Noto Sans KR',sans-serif;
+  text-align: center;
+}
+@media all and (max-width:625px){
+  #wrap{
+    width: 80%;
+    min-width: 450px;
+  }
+}
+a{
+  cursor: pointer;
+}
+a:hover{
+  color: #03c75a;
+}
+.logo_font{
+  font-size: 3rem;
+  font-weight: 900;
+  color: #03c75a;
+}
+header{
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* 로그인화면 */
+main h2{
+  margin: 0 auto;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+main #info{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+main #info #profile{
+  padding: 10px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  flex-flow: nowrap row;
+}
+main #info #profile h3>img{
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+main #info #profile>ul>li{
+  text-align: left;
+  padding: 5px;
+  padding-top: 10px;
+}
+main #info #profile>ul>li>span{
+  color: #888;
+}
+main #info #profile #notcion{
+  display: flex;
+  flex-flow: row nowrap;
+}
+main #info #profile #notcion>li{
+  margin-right: 20px;
+}
+main #info #profile #logout_btn{
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  z-index: 1;
+}
+main #info #profile #logout_btn>a{
+  font-size: 0.8rem;
+  display: inline-block;
+  padding: 13px;
+  background-color: #ccc;
+  border-radius: 20px;
+}
+
+
+main #info #notice_list{
+  margin-top: 15px;
+  border-top: 1px solid #ccc;
+}
+main #info #notice_list>ul{
+  display: flex;
+  flex-flow: row nowrap;
+}
+main #info #notice_list li{
+  width: 100%;
+  border-right: 1px solid #ccc;
+  /* 포지션 기준값 */
+  position: relative;
+}
+main #info #notice_list li:last-child{
+  border: none;
+}
+main #info #notice_list li h3{
+  padding: 20px 0 20px;
+  font-weight: 700;
+}
+main #info #notice_list li a>p{
+  padding: 5px 10px;
+  background-color: #03c75a;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -10px;
+}
+
+
+
+/* 광고 */
+main #ad{
+  margin: 30px 0;
+  position: relative;
+}
+main #ad img{
+  width: 450px;
+  border-radius: 20px;
+}
+main #ad #ad_text{
+  width: 410px;
+  padding: 20px;
+  padding-top: 184px;
+  border-radius: 20px;
+  text-align: left;
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(rgba(0,0,0,0) 50%,rgba(0,0,0,0.7) 95%);
+  
+  /* 포지션 */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+main #ad #ad_text h3{
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+main #ad #ad_text p{
+line-height: 20px;
+}
+footer{
+  text-align: center;
+  color: #999;
+}
+footer h3{
+  font-size: 0.8rem;
+  padding: 10px 0;
+}
+footer p{
+  font-size: 0.8rem;
+}
+footer .lobo_c{
+  color: #03c75a;
+  font-weight: 900;
+}
+footer .font_c{
+  color: #000;
+}

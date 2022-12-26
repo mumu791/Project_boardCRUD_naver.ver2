@@ -1,0 +1,81 @@
+@charset "utf-8";
+body{
+  background-color: rgba(221, 225, 240,0.5);
+}
+#wrap{
+  width: 80%;
+  min-width:630px;
+  margin: 5% auto;
+  font-family: 'Noto Sans KR',sans-serif;
+  text-align: center;
+}
+@media all and (max-width:625px){
+  #wrap{
+    width: 80%;
+    min-width: 450px;
+  }
+}
+a{
+  cursor: pointer;
+}
+a:hover{
+  color: #03c75a;
+}
+.logo_font{
+  font-size: 3rem;
+  font-weight: 900;
+  color: #03c75a;
+}
+header{
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* 로그인화면 */
+main h2{
+  margin: 0 auto;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+main #list{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+main #list table,
+main #list td,
+main #list th{
+  border-collapse: collapse;
+  border: 1px solid #000;
+  border-radius: 100px;
+  padding: 10px;
+}
+main #list table{
+  text-align: left;
+  width: 100%;
+}
+main #list table th{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+
+footer{
+  text-align: center;
+  color: #999;
+}
+footer h3{
+  font-size: 0.8rem;
+  padding: 10px 0;
+}
+footer p{
+  font-size: 0.8rem;
+}
+footer .lobo_c{
+  color: #03c75a;
+  font-weight: 900;
+}
+footer .font_c{
+  color: #000;
+}

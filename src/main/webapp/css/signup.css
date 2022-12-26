@@ -1,0 +1,105 @@
+@charset "utf-8";
+body{
+  background-color: rgba(221, 225, 240,0.5);
+}
+#wrap{
+  width: 450px;
+  margin: 5% auto;
+  font-family: 'Noto Sans KR',sans-serif;
+}
+@media all and (max-width:625px){
+  #wrap{
+    width: 80%;
+    min-width: 450px;
+  }
+}
+header{
+  text-align: center;
+  margin-bottom: 30px;
+}
+header h1{
+  font-size: 3rem;
+  font-weight: 900;
+  color: #03c75a;
+}
+
+main label{
+  font-weight: 500;
+  display: inline-block;
+  margin: 30px 0 5px;
+}
+main .normal_input{
+  background-color: #fff;
+  cursor: pointer;
+  width: 93%;
+  padding: 10px;
+  padding-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1.2rem;
+}
+main form label>span{
+  font-size: 0.8rem;
+  color: red;
+}
+main form ul li #id{
+  width: 80%;
+  font-size: 1.2rem;
+}
+main form ul li #id_email{
+  font-size: 0.8rem;
+  color: #ccc;
+}
+main form ul li #birthday{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+main form ul li #birthday input,
+main form ul li #birthday select{
+  border: 1px solid #ccc;
+  margin: 10px 5px;
+  padding: 10px;
+  width: 100%;
+}
+main form ul li #birthday input:first-child{
+  margin-left: 0;
+}
+main form ul li #birthday input:last-child{
+  margin-right: 0;
+}
+main form ul li #gender{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+main form>input{
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 30px 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #03c75a;
+}
+
+
+footer{
+  text-align: center;
+  color: #999;
+}
+footer h3{
+  font-size: 0.8rem;
+  padding: 10px 0;
+}
+footer p{
+  font-size: 0.8rem;
+}
+footer .lobo_c{
+  color: #03c75a;
+  font-weight: 900;
+}
+footer .font_c{
+  color: #000;
+}

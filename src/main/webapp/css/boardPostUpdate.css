@@ -1,0 +1,138 @@
+@charset "utf-8";
+#wrap{
+  width: 90%;
+  min-width:630px;
+  margin: 5% auto;
+  font-family: 'Noto Sans KR',sans-serif;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+@media all and (max-width:625px){
+  #wrap{
+    width: 80%;
+    min-width: 450px;
+  }
+}
+a{
+  cursor: pointer;
+}
+a:hover{
+  color: #03c75a;
+}
+.logo_font{
+  font-size: 2rem;
+  font-weight: 900;
+  color: #03c75a;
+}
+header{
+  background: url(../images/bgi.jpg) no-repeat ;
+  background-size: 100%;
+  text-align: left;
+  padding: 10px;
+}
+header>div{
+  padding-top: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+header>div>div{
+  padding: 10px;
+  font-size: 2rem;
+  line-height: 1.25;
+  color: #fff;
+}
+header>div>div p{
+  font-size: 1rem;
+}
+
+
+main aside{
+  padding: 5px;
+  text-align: right;
+  border-bottom:1px solid #03c75a;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+main aside a{
+  display: inline-block;
+  padding: 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+main #content #title{
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+main #content #title h3{
+	width:100%;
+}
+main #content #title h3>input{
+  font-size: 2rem;
+  font-weight: 700;
+}
+main #content #title>div{
+  width:50%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+main #content #title>div>img{
+	  border-radius:100%;
+}
+main #content #content_text{
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  margin-bottom:30px;
+}
+main #content #title>div>p{
+  margin-left:10px;
+  line-height:1.2;
+}
+main #content #title>div>p span{
+   font-size: 0.7rem;
+}
+main textarea{
+  width:95%;
+  padding: 10px;
+  font-size: 1.25rem;
+}
+main #content form>input{
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100px;
+}
+main #content form>input:hover{
+  color: #03c75a;
+}
+
+
+
+
+footer{
+  text-align: center;
+  color: #999;
+  padding: 20px 0;
+}
+footer h3{
+  font-size: 0.8rem;
+  padding: 10px 0;
+}
+footer p{
+  font-size: 0.8rem;
+}
+footer .lobo_c{
+  color: #03c75a;
+  font-weight: 900;
+}
+footer .font_c{
+  color: #000;
+}

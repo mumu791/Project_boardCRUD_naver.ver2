@@ -1,0 +1,133 @@
+@charset "utf-8";
+#wrap{
+  width: 450px;
+  margin: 5% auto;
+  font-family: 'Noto Sans KR',sans-serif;
+  text-align: center;
+}
+@media all and (max-width:625px){
+  #wrap{
+    width: 80%;
+    min-width: 450px;
+  }
+}
+a{
+  cursor: pointer;
+}
+.logo_font{
+  font-size: 3rem;
+  font-weight: 900;
+  color: #03c75a;
+}
+header{
+  text-align: center;
+  margin-bottom: 30px;
+}
+main #login{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+}
+main #login h2{
+  margin: 0 auto;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+
+}
+main #login form input{
+  width: 80%;
+  font-size: 1.1rem;
+}
+
+main #login form #login_form li{
+  width: 90%;
+  padding: 10px 0;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+main #login form #login_form li i{
+  margin-top: 3px;
+  color: #ccc;
+}
+main #login form #login_form li:first-child{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom: 0;
+}
+main #login form #login_form li:last-child{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+main #login form>input{
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 900;
+  width: 90%;
+  padding: 10px 0;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: #03c75a;
+  cursor: pointer;
+}
+main #login_link{
+  font-size: 0.8rem;
+  margin-top: 30px;
+  color: #999;
+}
+main #login_link a{
+  padding: 20px;
+}
+
+
+main #ad{
+  margin: 30px 0;
+  position: relative;
+}
+main #ad img{
+  width: 450px;
+  border-radius: 20px;
+}
+main #ad #ad_text{
+  width: 410px;
+  padding: 20px;
+  padding-top: 184px;
+  border-radius: 20px;
+  text-align: left;
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(rgba(0,0,0,0) 50%,rgba(0,0,0,0.7) 95%);
+  
+  /* 포지션 */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+main #ad #ad_text h3{
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+main #ad #ad_text p{
+line-height: 20px;
+}
+footer{
+  text-align: center;
+  color: #999;
+}
+footer h3{
+  font-size: 0.8rem;
+  padding: 10px 0;
+}
+footer p{
+  font-size: 0.8rem;
+}
+footer .lobo_c{
+  color: #03c75a;
+  font-weight: 900;
+}
+footer .font_c{
+  color: #000;
+}

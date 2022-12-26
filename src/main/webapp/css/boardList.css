@@ -1,0 +1,134 @@
+@charset "utf-8";
+#wrap{
+  width: 90%;
+  min-width: 630px;
+  margin: 5% auto;
+  font-family: 'Noto Sans KR',sans-serif;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+@media all and (max-width:625px){
+  #wrap{
+    width: 80%;
+    min-width: 450px;
+  }
+}
+a{
+  cursor: pointer;
+}
+a:hover{
+  color: #03c75a;
+}
+.logo_font{
+  font-size: 2rem;
+  font-weight: 900;
+  color: #03c75a;
+}
+header{
+  background: url(../images/bgi.jpg) no-repeat ;
+  background-size: 100%;
+  text-align: left;
+  padding: 10px;
+}
+header>div{
+  padding-top: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+header>div>img{
+  border-radius:100%;
+}
+header>div>div{
+  padding: 10px;
+  font-size: 2rem;
+  line-height: 1.25;
+  color: #fff;
+}
+header>div>div p{
+  font-size: 1rem;
+}
+
+main #content>article{
+  border-top: 1px solid #03c75a;
+  border-bottom: 1px solid #03c75a
+}
+main #content>article ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+main #content>article li{
+  font-size: 1.25rem;
+  height: 30px;
+  line-height: 30px;
+  padding: 8px 12px;
+  border-left: 1px solid #03c75a;
+}
+main #content>article li>input{
+  font-size: 1.25rem;
+  height: 100%;
+  width: 80%;
+  border: 1px solid #ccc;
+  text-align: right;
+}
+main #content>ul>li{
+  border: 1px solid #ccc;
+  border-left: 0;
+  border-right: 0;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+main #content>ul>li:last-child{
+  margin-bottom:30px;
+}
+main #content>ul>li div{
+  padding: 10px;
+  background-color:#eee;
+  border-radius:5px;
+}
+main #content>ul>li p{
+  text-align: center;
+  padding:2px;
+  line-height:1.25;
+  background-color:#eee;
+  border-radius:5px;
+}
+main #content>ul>li>a{
+  padding: 10px;
+  width: 75%;
+}
+main aside{
+  margin: 5px 0;
+  padding : 10px;
+  text-align: right;
+}
+main aside>a{
+  border: 1px solid #ccc;
+  padding:5px;
+}
+
+
+
+footer{
+  text-align: center;
+  color: #999;
+  padding-bottom: 20px;
+}
+footer h3{
+  font-size: 0.8rem;
+  padding: 10px 0;
+}
+footer p{
+  font-size: 0.8rem;
+}
+footer .lobo_c{
+  color: #03c75a;
+  font-weight: 900;
+}
+footer .font_c{
+  color: #000;
+}
