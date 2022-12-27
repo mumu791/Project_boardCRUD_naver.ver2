@@ -59,10 +59,10 @@
 ![naver_userUpdate_pr](https://user-images.githubusercontent.com/96656259/209602440-411f4999-37a8-41d2-8cea-ae2d784c2a46.gif)
 
 
-# 4. 게시판  등록 확인
+# 4. 게시판 등록 확인
 ![naver_boardPost](https://user-images.githubusercontent.com/96656259/209602527-434b60e7-b754-45c9-8025-73f86f8e43c4.gif)
 
 
-# 5. 게시판  수정 삭제
+# 5. 게시판 수정 삭제
 ![naver_boardPostUPdateDelete](https://user-images.githubusercontent.com/96656259/209602519-029528e4-c334-45ae-935b-d34b6b86dde6.gif)
 </div>
