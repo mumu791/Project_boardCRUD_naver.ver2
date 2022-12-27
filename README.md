@@ -32,7 +32,7 @@
   5. [상세로직 이동]()
   
   
-### 5 . 프로젝트 결과물()
+### 5 . [프로젝트 결과물](#프로젝트-결과물-영상)
   1. [회원가입](#1-회원가입)
   2. [로그인 (로그인 실패 / 성공 ) / 로그아웃](#2-로그인-로그아웃)
   3. [회원정보 수정 (비밀번호 확인)](#3-유저정보-수정)
@@ -41,32 +41,29 @@
 
 
 ---
+##프로젝트 기능 이미지
 
 
-##### 1. 회원가입
+---
+
+## 프로젝트 결과물 영상
+
+# 1. 회원가입
+![naver_signup_pr](https://user-images.githubusercontent.com/96656259/209602408-d14921ac-1e44-4511-8450-52d9da75eab8.gif)
 
 
+# 2. 로그인 로그아웃
+![naver_loginout](https://user-images.githubusercontent.com/96656259/209602507-9218ef8a-d276-46ac-9f5c-e5322592d599.gif)
 
 
-
-##### 2. 로그인 로그아웃
-
-
+# 3. 유저정보 수정
+![naver_userUpdate_pr](https://user-images.githubusercontent.com/96656259/209602440-411f4999-37a8-41d2-8cea-ae2d784c2a46.gif)
 
 
-
-##### 3. 유저정보 수정
-
-
+# 4. 게시판  등록 확인
+![naver_boardPost](https://user-images.githubusercontent.com/96656259/209602527-434b60e7-b754-45c9-8025-73f86f8e43c4.gif)
 
 
-
-##### 4. 게시판  등록 확인
-
-
-
-
-
-##### 5. 게시판  수정 삭제
-
+# 5. 게시판  수정 삭제
+![naver_boardPostUPdateDelete](https://user-images.githubusercontent.com/96656259/209602519-029528e4-c334-45ae-935b-d34b6b86dde6.gif)
 
